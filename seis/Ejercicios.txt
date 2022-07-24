@@ -1,0 +1,39 @@
+Conceptual:
+1) La memoria estatica es la porcion de memoria que ocupa el programa al momento de compilar, dicha memoria no se modifica.
+
+2) La memoria dinamica es la memoria que se utiliza en el momento de la ejecucion del programa y puede cambiar.
+
+3) Una variable de tipo puntero es una variable que ocupa lugar en la memoria estatica pero apunta a una porcion de memoria de dinamica.
+
+4) La operacion NEW reserva espacio en la memoria dinamica.
+
+5) La operacion DISPOSE libera la memoria reservada en la memoria dinamica.
+
+PRACTICA
+
+1) 4 bytes ;
+4 bytes;
+4 bytes;
+51 bytes;
+51 bytes;
+
+2)4 bytes;
+16 bytes;
+4 bytes;
+4 bytes;
+16 bytes;
+16 bytes;
+16 bytes;
+
+3) 4 bytes;
+20000 bytes;
+20000 bytes;
+20000 bytes;
+
+4) a) error en tiempo de ejecucion
+
+c) un texo;
+otro texto;
+
+d) un texto;
+un texto;

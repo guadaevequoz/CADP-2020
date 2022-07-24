@@ -1,0 +1,31 @@
+Practica 3
+
+1) Primero va a imprimir la variable b del modulo que es el numero 3, y luego los valores de las variables globales asignadosen el programa principal (2 y 1).
+
+2) El error en este programa es que se quiere imprimir en el programa principal una variable que sólo existe en el modulo uno. 
+
+3) a) Imprime el valor 25.
+b) 10.
+c) tira error.
+
+4) a)  num1= 10 
+         num2=5
+	Imprime 9.
+    b) num1=5
+        num2= 10
+	Imprime 14.
+
+5) 4 pares y 4 impares.
+
+6) line 3= c deberia ser parametro de salida
+linea 8= no esta declarada la i
+linea 16= a y b no estan declaradas
+linea 17= como a y b no estan declaradas no tiene sentido
+line 20= va un and y no un or 
+
+7) linea 2= salario deberia ser parametro de salida
+linea 21= sumasalarios no esta declarada
+linea 23= estan mal ordenadas las variables
+linea 14= max salario no esta impuesto como parametro
+linea 28= tira error porque max salario no tiene valor
+

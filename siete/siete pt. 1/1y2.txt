@@ -1,0 +1,28 @@
+1) a) El programa recibe numeros y los guarda en una lista. 
+b) 0, 48, 13, 21 y 10
+c) procedure imprimir(L: lista);
+begin
+while(L<> nil) do
+begin
+	writeln(abs(L^.num));
+	L:= L^.sig;
+end;
+end;
+
+d)procedure cambiar(var L: lista; v: integer);
+begin
+	while(L <> nil) do
+	begin
+		L^.num:= L^.num + v;
+		L:= L^.sig;
+	end;
+end;
+
+2) 1. En AgregarAdelante la lista deberia ir por referencia.
+2. En AgregarAdelante se debe agregar New(l)
+3. En GenerarLista hay que agregar un leerPersona en el while.
+4. en imprimirInfola la lista no deberia ir por referencia, sino por valor.
+5. en imprimirInfo se debe escribir en el write l^.dato.nombre
+6. lo mismo que el 5 pero write l^.dato.apellido
+7. en generarLista la variable p deberia ser del tipo de dato persona 
+8. 
